@@ -1,7 +1,6 @@
 import './Card.css';
 
 function Card(props) {
-    console.log(props.name);
     return (
         <div className="card">
             <h1 className="card__title">{props.name}</h1>
